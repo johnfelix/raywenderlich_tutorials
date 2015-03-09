@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC3D177B1AA9275D006EEEE7 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3D177A1AA9275D006EEEE7 /* GraphView.swift */; };
 		DC4FCFE21AA5CDC400466941 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4FCFE11AA5CDC400466941 /* AppDelegate.swift */; };
 		DC4FCFE41AA5CDC400466941 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4FCFE31AA5CDC400466941 /* ViewController.swift */; };
 		DC4FCFE71AA5CDC400466941 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC4FCFE51AA5CDC400466941 /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC3D177A1AA9275D006EEEE7 /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
 		DC4FCFDC1AA5CDC300466941 /* Flo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC4FCFE01AA5CDC300466941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC4FCFE11AA5CDC400466941 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				DC4FCFEA1AA5CDC400466941 /* LaunchScreen.xib */,
 				DC4FCFDF1AA5CDC300466941 /* Supporting Files */,
 				DC4FD0011AA5CDE600466941 /* PushButtonView.swift */,
+				DC3D177A1AA9275D006EEEE7 /* GraphView.swift */,
 			);
 			path = Flo;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC3D177B1AA9275D006EEEE7 /* GraphView.swift in Sources */,
 				DC4FCFE41AA5CDC400466941 /* ViewController.swift in Sources */,
 				DC4FD0021AA5CDE600466941 /* PushButtonView.swift in Sources */,
 				DC4FCFE21AA5CDC400466941 /* AppDelegate.swift in Sources */,
